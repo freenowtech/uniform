@@ -1,4 +1,4 @@
-# Uniform
+# Uniform [![Build Status](https://travis-ci.com/mytaxi/uniform.svg?branch=master)](https://travis-ci.com/mytaxi/uniform)
 
 ## Description
 
