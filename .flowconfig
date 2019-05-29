@@ -1,0 +1,19 @@
+[ignore]
+.*/bamboo-specs/.*
+.*/coverage/.*
+.*/lib/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.file_ext=.js
+module.name_mapper='^~/\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
+
+[untyped]
+.*/node_modules/.*
+
+[strict]
