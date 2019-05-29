@@ -137,10 +137,10 @@ const components = {
 };
 ```
 
-The `components` object is a mapping between names and the actual components.  `SubmitButton` and `FormContainer` are required to create. And `TextInput` will be linked to `component: 'TextInput'` in the form config. To create custom components for your field please follow [Formik docs on the Field element](hhttps://jaredpalmer.com/formik/docs/api/field#component).
+The `components` object is a mapping between names and the actual components.  `SubmitButton` and `FormContainer` are required to create. And `TextInput` will be linked to `component: 'TextInput'` in the form config. To create custom components for your field please follow [Formik docs on the Field element](https://jaredpalmer.com/formik/docs/api/field#component).
 
 ## Tests
-By default mandatory test coverage of the library is set to 80%.
+By default, mandatory minimum test coverage of the library is set to 80%.
 
 ## [Contributing](./CONTRIBUTING.md)
 
