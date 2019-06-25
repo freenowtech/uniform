@@ -1,5 +1,5 @@
 ![Uniform](assets/logo.png)
-#[![Build Status](https://travis-ci.com/mytaxi/uniform.svg?branch=master)](https://travis-ci.com/mytaxi/uniform)
+[![Build Status](https://travis-ci.com/mytaxi/uniform.svg?branch=master)](https://travis-ci.com/mytaxi/uniform)
 
 ## Description
 
