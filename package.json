@@ -1,5 +1,5 @@
 {
-  "name": "@mytaxi/uniform",
+  "name": "@freenow/uniform",
   "version": "1.0.0",
   "description": "Component for creating dynamic forms",
   "main": "lib/index.js",
@@ -15,6 +15,9 @@
     "test:type": "flow",
     "test:unit": "NODE_ENV=test jest --coverage --verbose",
     "publish": "semantic-release --no-ci"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
