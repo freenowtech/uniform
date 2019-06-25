@@ -17,7 +17,7 @@ This library allows you to generate forms based on provided JSON configuration.
 #### Installation
 
 1. Install library.
-2. Import package `import formGenerator from '@mytaxi/uniform';`.
+2. Import package `import formGenerator from '@freenow/uniform';`.
 3. Generate form and include in your component: 
     ```
     const Form = formGenerator(formConfig, components);
