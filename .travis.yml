@@ -3,7 +3,7 @@ node_js:
   - "10"
 before_install:
   - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
-scripts:
+script:
   - npm test
   - npm run build
 deploy:
