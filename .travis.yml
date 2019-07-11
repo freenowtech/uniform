@@ -4,8 +4,10 @@ node_js:
 before_install:
   - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
 script:
+  - npm install -g codecov
   - npm test
   - npm run build
+  - codecov
 deploy:
   provider: script
   skip_cleanup: true
