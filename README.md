@@ -1,5 +1,6 @@
 ![Uniform](assets/logo.png)
 [![Build Status](https://travis-ci.com/freenowtech/uniform.svg?branch=master)](https://travis-ci.com/freenowtech/uniform)
+[![codecov](https://codecov.io/gh/freenowtech/uniform/branch/master/graph/badge.svg)](https://codecov.io/gh/freenowtech/uniform)
 
 ## Description
 
