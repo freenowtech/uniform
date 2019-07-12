@@ -4,7 +4,6 @@ import type { ComponentMapping, DynamicFormConfig, FormProps } from './types';
 import { Formik, Field } from 'formik/dist/index';
 import type { FormikFormProps } from 'formik/dist/index';
 import * as yup from 'yup';
-import _ from 'lodash';
 import testIdConstructor from './utils/testIdConstructor';
 import { validateValue, validationConstructor } from './utils/validations';
 
@@ -31,8 +30,11 @@ const formGenerator = (
         let validationSchema = yup.object();
 
         config.fields.forEach(field => {
-            if (!_.isNil(field.defaultValue)) {
-                _.set(initialValues, field.name, field.defaultValue);
+            if (
+                field.defaultValue !== null &&
+                field.defaultValue !== undefined
+            ) {
+                initialValues[field.name] = field.defaultValue;
             }
             if (field.validationConfig) {
                 validationSchema = validationConstructor(
