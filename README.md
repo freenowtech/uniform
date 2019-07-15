@@ -148,4 +148,8 @@ By default, mandatory minimum test coverage of the library is set to 80%.
 
 ## Authors and acknowledgment
 
-### [Maintainers](./MAINTAINERS)
+### Authors
+
+* [Ilya Lyamkin](https://github.com/ilyamkin)
+* [Yasin Can Akmehmet](https://github.com/yasincanakmehmet)
+* [Nikolai Lopin](https://github.com/nlopin)
